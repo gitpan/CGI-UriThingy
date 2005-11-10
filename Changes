@@ -1,0 +1,28 @@
+Revision history for Perl extension CGI::UriThingy.
+
+0.08  2005-11-10 16:25:04 JST
+ - alter class name from CGI::Uricode to CGI::UriThingy
+ - modify algorythm of 
+ - change name of functions: uri_encode -> urlencode;
+   uri_decode -> urldecode.
+ - modify algorythm of urlencode/urldecode.
+   now convert [SPACE] to "+" and convert line-return to [CR][LF].
+
+0.07  2005-11-06 16:17:06 JST
+ - modify alogorythm around utf8 flag handling.
+
+0.06  2005-11-06 10:50:34 JST
+ - modify pod document.
+
+0.05  2005-11-05 18:25:06 JST
+ - modify usage of uri_escape() and uri_unescape().
+
+0.04  2005-11-05 15:38:28 JST
+ - the first release which is described below contained another module
+   by mistake. this release collects it.
+
+0.03  2005-11-05 14:26:16 JST
+ - first release for the CPAN.
+
+0.01-0.02  1999
+ - created as a private library.

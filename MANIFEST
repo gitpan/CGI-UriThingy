@@ -1,0 +1,7 @@
+Changes       for revision history
+UriThingy.pm  a fewest set of functions about uri thingies
+Makefile.PL   write Makefile
+MANIFEST      (this file)
+README        for short descriptions about installation
+t/UriThingy.t test script for CGI::UriThingy
+META.yml                                 Module meta-data (added by MakeMaker)

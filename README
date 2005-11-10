@@ -1,0 +1,24 @@
+CGI/UriThingy version 0.08
+==========================
+
+ This module is used to utilize uri thingies.
+
+INSTALLATION
+
+ To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+ This module requires perl 5.8 or later.
+
+COPYRIGHT AND LICENCE
+
+ Copyright (c) 1999-2005 Masanori HATA. All rights reserved.
+
+ This library is free software; you can redistribute it and/or
+ modify it under the same terms as Perl itself.
